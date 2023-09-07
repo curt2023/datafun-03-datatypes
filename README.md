@@ -2,6 +2,10 @@
 
 > Practice with Python data types, filter(), map(), and list comprehensions
 
+- Repository: [datafun-03-datatypes](https://github.com/curt2023/datafun-03-datatypes)
+- Author: [Curtis Rogers](https://github.com/curt2023)
+- Domain: Sports (Soccer)
+
 
 ## Get Started
 
