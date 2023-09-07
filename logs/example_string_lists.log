@@ -1,0 +1,24 @@
+2023-09-07 13:21:19,036 =============================================================
+2023-09-07 13:21:19,036 =============================================================
+2023-09-07 13:21:19,036 Today is 2023-09-07 at 01:21 PM
+2023-09-07 13:21:19,054 This file is running on: nt Windows 10
+2023-09-07 13:21:19,054 The Python version is: 3.11.4
+2023-09-07 13:21:19,054 The active conda environment is:  None
+2023-09-07 13:21:19,054 The active pip environment is:    None
+2023-09-07 13:21:19,054 The active environment path is:   C:\Users\ctrog\AppData\Local\Programs\Python\Python311
+2023-09-07 13:21:19,054 The current working directory is: C:\Users\ctrog\OneDrive\Documents\Data Analytics Masters\GIT Hub\datafun-03-datatypes
+2023-09-07 13:21:19,054 This source file is in:           C:\Users\ctrog\OneDrive\Documents\Data Analytics Masters\GIT Hub\datafun-03-datatypes
+2023-09-07 13:21:19,054 =============================================================
+2023-09-07 13:21:19,054 =============================================================
+2023-09-07 13:21:19,054 Calling functions from main block
+2023-09-07 13:21:19,054 Calling process_text_woodchuck()
+2023-09-07 13:21:19,054 The list of words is: ['How', 'much', 'wood', 'would', 'a', 'woodchuck', 'chuck', 'if', 'a', 'woodchuck', 'could', 'chuck', 'wood?', 'He', 'would', 'chuck,', 'he', 'would,', 'as', 'much', 'as', 'he', 'could,', 'and', 'chuck', 'as', 'much', 'wood', 'as', 'a', 'woodchuck', 'would', 'if', 'a', 'woodchuck', 'could', 'chuck', 'wood.']
+2023-09-07 13:21:19,054 There are 38 words in the file.
+2023-09-07 13:21:19,054 The set of unique words is: {'would', 'wood?', 'he', 'would,', 'How', 'chuck,', 'as', 'He', 'wood', 'could,', 'a', 'woodchuck', 'wood.', 'could', 'and', 'chuck', 'if', 'much'}
+2023-09-07 13:21:19,054 There are 18 unique words in the file.
+2023-09-07 13:21:19,054 Calling create_random_sentence()
+2023-09-07 13:21:19,054 Random sentence: The scared bird jumps sadly.
+2023-09-07 13:21:19,054 Calling create_random_sentence()
+2023-09-07 13:21:19,054 Random sentence: The angry dog crawls scaredly.
+2023-09-07 13:21:19,054 Calling play_game()
+2023-09-07 13:21:19,054 ready_for_continous_game = True
