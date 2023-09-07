@@ -81,7 +81,12 @@ def list_info():
     logger.info(f"List1 sorted is {sorted_values}")
     logger.info(f"List1 sorted and reversed is {sorted_reversed}")
 
+def list_transformation():
+    logger.info(f"General transformations of list1: {list1}")
 
+    high_scores = list(filter(lambda x: x >=5, list1))
+    
+    logger.info(f"The scores that are greater than or equal to 5 are: {high_scores}")
 
 def show_log():
      with open(logname, "r") as file_wrapper:
@@ -107,6 +112,10 @@ if __name__ == "__main__":
     logger.info("***==============================================***")
     logger.info("CALLING list_info")
     list_info()
+
+    logger.info("***==============================================***")
+    logger.info("CALLING list_transformation")
+    list_transformation()
 
     show_log()
 
