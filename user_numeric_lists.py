@@ -97,9 +97,15 @@ def show_log():
 # Literally: "if this module name == the name of the main module"
 if __name__ == "__main__":
     logger.info("CALLING functions")
-
+    logger.info("CALLING measures_of_central_tendency")
     measures_of_central_tendency()
+
+    logger.info("***==============================================***")
+    logger.info("CALLING correlation_function")
     correlation_function()
+
+    logger.info("***==============================================***")
+    logger.info("CALLING list_info")
     list_info()
 
     show_log()
