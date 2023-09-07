@@ -85,8 +85,24 @@ def list_transformation():
     logger.info(f"General transformations of list1: {list1}")
 
     high_scores = list(filter(lambda x: x >=5, list1))
+    scores_cubed = list(map(math.cbrt, list1))
+    list_value = 4
+    volume = (list_value**3)
     
     logger.info(f"The scores that are greater than or equal to 5 are: {high_scores}")
+    logger.info(f"The scores cube rooted are: {scores_cubed}")
+    logger.info(f"The Volume of a cube with the side equal to 4 is {volume}")
+
+def list_transformation_comprehensions():
+    logger.info(f"General list transformations using comprehensions of list1: {list1}")
+
+    goals_over8 = [x for x in list1 if x > 8]
+    goals_trippled = [x*3 for x in list1]
+    goals_sqrt = [math.sqrt(x) for x in list1]
+
+    logger.info(f"The scores that are greater than 8 are: {goals_over8}")
+    logger.info(f"The goals trippled are: {goals_trippled}")
+    logger.info(f"Goals square rooted are: {goals_sqrt}")
 
 def show_log():
      with open(logname, "r") as file_wrapper:
@@ -116,6 +132,10 @@ if __name__ == "__main__":
     logger.info("***==============================================***")
     logger.info("CALLING list_transformation")
     list_transformation()
+
+    logger.info("***==============================================***")
+    logger.info("CALLING list_transformation_comprehensions")
+    list_transformation_comprehensions()
 
     show_log()
 
