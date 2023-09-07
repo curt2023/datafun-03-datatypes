@@ -52,10 +52,13 @@ def correlation_function():
     correlationxy = statistics.correlation(listx, listy)
     slope, intercept = statistics.linear_regression(listx, listy)
 
-
+    x_max = max(listx)
+    newx = 15
+    newy = slope * newx + intercept
 
     logger.info(f"correlation between x and y: {correlationxy}")
     logger.info(f"The equation of the best fit line is: y = {slope}x + {intercept}")
+    logger.info(f"We predict that when x = {newx}, y will be about {newy}")
 
 
 def show_log():
