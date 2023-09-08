@@ -1,0 +1,15 @@
+2023-09-08 13:27:13,214 =============================================================
+2023-09-08 13:27:13,214 =============================================================
+2023-09-08 13:27:13,214 Today is 2023-09-08 at 01:27 PM
+2023-09-08 13:27:13,261 This file is running on: nt Windows 10
+2023-09-08 13:27:13,261 The Python version is: 3.11.4
+2023-09-08 13:27:13,261 The active conda environment is:  None
+2023-09-08 13:27:13,261 The active pip environment is:    None
+2023-09-08 13:27:13,261 The active environment path is:   C:\Users\ctrog\AppData\Local\Programs\Python\Python311
+2023-09-08 13:27:13,261 The current working directory is: C:\Users\ctrog\OneDrive\Documents\Data Analytics Masters\GIT Hub\datafun-03-datatypes
+2023-09-08 13:27:13,261 This source file is in:           C:\Users\ctrog\OneDrive\Documents\Data Analytics Masters\GIT Hub\datafun-03-datatypes
+2023-09-08 13:27:13,261 =============================================================
+2023-09-08 13:27:13,261 =============================================================
+2023-09-08 13:27:13,261 Calling functions from main block
+2023-09-08 13:27:13,261 Calling compare_two_plays()
+2023-09-08 13:27:13,293 Complete the code to compare two plays.

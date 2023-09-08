@@ -1,13 +1,13 @@
 """
 Optional bonus. See course site for details.
 
->>> len(longwordset1)
+len(longwordset1)
 415
 
->>> len(longwordset2)
+len(longwordset2)
 197
 
->>> len(longwords)
+len(longwords)
 13
 """
 
@@ -30,7 +30,7 @@ def compare_two_plays():
         text = f1.read()
         wordlist1 = text.split()  # split on whitespace
 
-    logger.info(f"List of words from play 1: {wordlist1}")
+    #logger.info(f"List of words from play 1: {wordlist1}")
 
 
     # read from file and get a list of words
@@ -39,39 +39,27 @@ def compare_two_plays():
         text = f2.read()
         wordlist2 = text.split()  # split on whitespace
 
-    logger.info(f"List of words from play 2: {wordlist2}")
+    #logger.info(f"List of words from play 2: {wordlist2}")
 
-
-    # Done with files - let the files close and the work begin
-
-    # Remove duplicates by creating two sorted sets
-    # hint: use sorted() to sort the list
-    # hint: use set() to remove duplicates
     # name them wordset1 and wordset2
-    wordset1 = set()  # TODO fix this line
-    wordset2 = set()  # TODO fix this line
+    wordset1 = set(wordlist1) 
+    wordset2 = set(wordlist2)  
 
 
     # initialize a variable maxlen = 10
-    maxlen = 1  # TODO fix this line
+    maxlen = 10  
 
-    # use a list comprension to get a list of words longer than 10
-    # for word in wordset1
-    # That is:
-    # in a list (e.g. square brackets)
-    # say "[Give me word (for each word in wordset1)
-    #      if len(word) is greater than maxlen]"
-    # then convert the list to a set to we can take the intersection
-    # hint: use set()
-    # name them longwordset1 and longwordset2
+    longwordlist1 = [word for word in wordset1 if len(word) > maxlen]
+    longwordlist2 = [word for word in wordset2 if len(word) > maxlen]
 
-    longwordset1 = set()  # TODO: fix this line
-    longwordset2 = set()  # TODO: fix this line
+    longwordset1 = set(longwordlist1)  
+    longwordset2 = set(longwordlist2)  
 
-    # find the intersection of the two sets
-    # that is, the words in both longwordset1 1 & longwordset2
-    # name this variable longwords
+
+    # intersection of the two sets
     longwords = longwordset1 & longwordset2
+
+    
 
     # print the length of the sets and the list
     print(len(longwordset1))
@@ -81,10 +69,10 @@ def compare_two_plays():
     print(f"{sorted(longwords) = }")
     print()
 
-    # check your work
     print("TESTING...if nothing prints before the testing is done, you passed!")
     doctest.testmod()
     print("TESTING DONE")
+    
 
 def show_log():
     """Read log file and print it to the terminal"""
@@ -99,7 +87,16 @@ if __name__ == "__main__":
     logger.info("Calling functions from main block")
 
     compare_two_plays()
+   
+    
+    
+
+    
 
     logger.info("Complete the code to compare two plays.")
     show_log()
+
+    print("TESTING...if nothing prints before the testing is done, you passed!")
+    doctest.testmod()
+    print("TESTING DONE")
 
