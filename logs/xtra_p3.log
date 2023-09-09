@@ -1,23 +1,24 @@
-2023-09-08 18:17:55,347 =============================================================
-2023-09-08 18:17:55,347 =============================================================
-2023-09-08 18:17:55,347 Today is 2023-09-08 at 06:17 PM
-2023-09-08 18:17:55,366 This file is running on: nt Windows 10
-2023-09-08 18:17:55,366 The Python version is: 3.11.4
-2023-09-08 18:17:55,366 The active conda environment is:  None
-2023-09-08 18:17:55,366 The active pip environment is:    None
-2023-09-08 18:17:55,366 The active environment path is:   C:\Users\ctrog\AppData\Local\Programs\Python\Python311
-2023-09-08 18:17:55,366 The current working directory is: C:\Users\ctrog\OneDrive\Documents\Data Analytics Masters\GIT Hub\datafun-03-datatypes
-2023-09-08 18:17:55,366 This source file is in:           C:\Users\ctrog\OneDrive\Documents\Data Analytics Masters\GIT Hub\datafun-03-datatypes
-2023-09-08 18:17:55,366 =============================================================
-2023-09-08 18:17:55,366 =============================================================
-2023-09-08 18:17:55,381 Calling functions from main block
-2023-09-08 18:17:55,381 Calling compare_two_plays()
-2023-09-08 18:17:55,397 len(longwordset1) = 415
-2023-09-08 18:17:55,397 len(longwordset2) = 197
-2023-09-08 18:17:55,397 len(longwords) = 13
-2023-09-08 18:17:55,397 =====================================================
-2023-09-08 18:17:55,397 =====================================================
-2023-09-08 18:17:55,397 doctest.testmod results
-2023-09-08 18:17:55,397 TESTING...if nothing prints before the testing is done, you passed!
-2023-09-08 18:17:55,397 TESTING DONE
-2023-09-08 18:17:55,397 Complete the code to compare two plays.
+2023-09-08 19:25:39,371 =============================================================
+2023-09-08 19:25:39,371 =============================================================
+2023-09-08 19:25:39,371 Today is 2023-09-08 at 07:25 PM
+2023-09-08 19:25:39,403 This file is running on: nt Windows 10
+2023-09-08 19:25:39,403 The Python version is: 3.11.4
+2023-09-08 19:25:39,403 The active conda environment is:  None
+2023-09-08 19:25:39,403 The active pip environment is:    None
+2023-09-08 19:25:39,403 The active environment path is:   C:\Users\ctrog\AppData\Local\Programs\Python\Python311
+2023-09-08 19:25:39,403 The current working directory is: C:\Users\ctrog\OneDrive\Documents\Data Analytics Masters\GIT Hub\datafun-03-datatypes
+2023-09-08 19:25:39,403 This source file is in:           C:\Users\ctrog\OneDrive\Documents\Data Analytics Masters\GIT Hub\datafun-03-datatypes
+2023-09-08 19:25:39,403 =============================================================
+2023-09-08 19:25:39,403 =============================================================
+2023-09-08 19:25:39,423 Calling functions from main block
+2023-09-08 19:25:39,423 Calling compare_two_plays()
+2023-09-08 19:25:39,426 len(longwordset1) = 415
+2023-09-08 19:25:39,426 len(longwordset2) = 197
+2023-09-08 19:25:39,426 len(longwords) = 13
+2023-09-08 19:25:39,426 =====================================================
+2023-09-08 19:25:39,426 =====================================================
+2023-09-08 19:25:39,426 doctest.testmod results
+2023-09-08 19:25:39,426 TESTING...if nothing prints before the testing is done, you passed!
+2023-09-08 19:25:39,426 TestResults(failed=0, attempted=3)
+2023-09-08 19:25:39,426 TESTING DONE
+2023-09-08 19:25:39,442 Complete the code to compare two plays.

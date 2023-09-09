@@ -75,6 +75,7 @@ def compare_two_plays():
     logger.info("doctest.testmod results")
     logger.info("TESTING...if nothing prints before the testing is done, you passed!")
     doctest.testmod()
+    logger.info(f"{doctest.testmod()}")
     logger.info("TESTING DONE")
     
 
